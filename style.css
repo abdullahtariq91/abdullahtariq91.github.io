@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'simple-font';
+  src: url('simplefont.ttf') format('ttf');
+}
+
 /* Split the screen in half */
 .split {
   height: 100%;
@@ -12,13 +17,13 @@
 /* Control the left side */
 .left {
   left: 0;
-  background-color: #111;
+  background-color: #b51c59;
 }
 
 /* Control the right side */
 .right {
   right: 0;
-  background-color: red;
+  background-color: #808185;
 }
 
 /* If you want the content centered horizontally and vertically */
@@ -35,3 +40,14 @@
   width: 150px;
   border-radius: 50%;
 }
+
+.heading-color {
+  color: #f8f5e4;
+}
+
+.text-color {
+  color: #f8f5e4;
+}
+
+p { font-family: 'banks_miles_single_lineRg', Arial, sans-serif; }
+h2 { font-family: 'banks_miles_single_lineRg', Arial, sans-serif; }
